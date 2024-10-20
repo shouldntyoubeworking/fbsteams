@@ -1,0 +1,1232 @@
+{
+    "teams": [
+        {
+            "Team": "Air Force",
+            "Nickname": "Falcons",
+            "City": "Colorado Springs",
+            "Colors": "#0030a1",
+            "White": true,
+            "id": 2,
+            "Abbreviation": "AF",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Air_Force_Falcons_logo.svg/500px-Air_Force_Falcons_logo.svg.png"
+        },
+        {
+            "Team": "Akron",
+            "Nickname": "Zips",
+            "City": "Akron",
+            "Colors": "#041E42",
+            "id": 3,
+            "Abbreviation": "AKR",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Akron_Zips_logo_2022.svg/500px-Akron_Zips_logo_2022.svg.png"
+        },
+        {
+            "Team": "Alabama",
+            "Nickname": "Crimson Tide",
+            "City": "Tuscaloosa",
+            "Colors": "#A60C31",
+            "White": true,
+            "id": 4,
+            "Abbreviation": "BAMA",
+            "logos":"https://upload.wikimedia.org/wikipedia/commons/1/12/Alabama_Athletics_logo.svg"
+        },
+        {
+            "Team": "Appalachian State",
+            "Nickname": "Mountaineers",
+            "City": "Boone",
+            "Colors": "#FFCC00",
+            "id": 14,
+            "Abbreviation": "APP",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Appalachian_State_Mountaineers_logo.svg/500px-Appalachian_State_Mountaineers_logo.svg.png"
+        },
+        {
+            "Team": "Arizona",
+            "Nickname": "Wildcats",
+            "City": "Tucson",
+            "Colors": "#AB0520",
+            "id": 15,
+            "Abbreviation": "ARIZ",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Arizona_Wildcats_logo.svg/500px-Arizona_Wildcats_logo.svg.png"
+        },
+        {
+            "Team": "Arizona State",
+            "Nickname": "Sun Devils",
+            "City": "Tempe",
+            "Colors": "#8C1D40",
+            "id": 16,
+            "Abbreviation": "ASU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Arizona_State_Sun_Devils_logo.svg/500px-Arizona_State_Sun_Devils_logo.svg.png"
+        },
+        {
+            "Team": "Arkansas",
+            "Nickname": "Razorbacks",
+            "City": "Fayetteville",
+            "Colors": "#9D2235",
+            "id": 17,
+            "Abbreviation": "ARK",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Arkansas_Razorbacks_logo.svg/250px-Arkansas_Razorbacks_logo.svg.png"
+        },
+        {
+            "Team": "Arkansas State",
+            "Nickname": "Red Wolves",
+            "City": "Jonesboro",
+            "Colors": "#CC092F",
+            "id": 18,
+            "Abbreviation": "ARKS",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Arkansas_State_Red_Wolves_logo.svg/500px-Arkansas_State_Red_Wolves_logo.svg.png"
+        },
+        {
+            "Team": "Army",
+            "Nickname": "Black Knights",
+            "City": "West Point",
+            "Colors": "#D4BF91",
+            "id": 19,
+            "Abbreviation": "ARM",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Army_West_Point_logo.svg/500px-Army_West_Point_logo.svg.png"
+        },
+        {
+            "Team": "Auburn",
+            "Nickname": "Tigers",
+            "City": "Auburn",
+            "Colors": "#0C2340",
+            "id": 20,
+            "Abbreviation": "AUB",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Auburn_Tigers_logo.svg/500px-Auburn_Tigers_logo.svg.png"
+        },
+        {
+            "Team": "Ball State",
+            "Nickname": "Cardinals",
+            "City": "Muncie",
+            "Colors": "#BA0C2F",
+            "id": 22,
+            "Abbreviation": "BALL",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Ball_State_Cardinals_logo.svg/500px-Ball_State_Cardinals_logo.svg.png"
+        },
+        {
+            "Team": "Baylor",
+            "Nickname": "Bears",
+            "City": "Waco",
+            "Colors": "#FFB81C",
+            "id": 23,
+            "Abbreviation": "BAY",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Baylor_Athletics_logo.svg/500px-Baylor_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "Boise State",
+            "Nickname": "Broncos",
+            "City": "Boise",
+            "Colors": "#0033A0",
+            "id": 28,
+            "Abbreviation": "BOIS",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Primary_Boise_State_Broncos_Athletics_Logo.svg/500px-Primary_Boise_State_Broncos_Athletics_Logo.svg.png"
+        },
+        {
+            "Team": "Boston College",
+            "Nickname": "Eagles",
+            "City": "Chestnut Hill",
+            "Colors": "#98002E",
+            "id": 29,
+            "Abbreviation": "BC",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Boston_College_Eagles_logo.svg/500px-Boston_College_Eagles_logo.svg.png"
+        },
+        {
+            "Team": "Bowling Green",
+            "Nickname": "Falcons",
+            "City": "Bowling Green",
+            "Colors": "#FF7300",
+            "id": 31,
+            "Abbreviation": "BGSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Bowling_Green_Falcons_logo.svg/500px-Bowling_Green_Falcons_logo.svg.png"
+        },
+        {
+            "Team": "Buffalo",
+            "Nickname": "Bulls",
+            "City": "Buffalo",
+            "Colors": "#005BBB",
+            "id": 36,
+            "Abbreviation": "BUF",
+            "White": true,
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Buffalo_Bulls_Athletic_Logo.svg/500px-Buffalo_Bulls_Athletic_Logo.svg.png"
+        },
+        {
+            "Team": "BYU",
+            "Nickname": "Cougars",
+            "City": "Provo",
+            "Colors": "#002E5D",
+            "id": 38,
+            "Abbreviation": "BYU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/BYU_Stretch_Y_Logo.png/500px-BYU_Stretch_Y_Logo.png"
+        },
+        {
+            "Team": "California",
+            "Nickname": "Golden Bears",
+            "City": "Berkeley",
+            "Colors": "#FFC72C",
+            "id": 43,
+            "Abbreviation": "CAL",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/California_Golden_Bears_logo.svg/500px-California_Golden_Bears_logo.svg.png"
+        },
+        {
+            "Team": "Central Michigan",
+            "Nickname": "Chippewas",
+            "City": "Mount Pleasant",
+            "Colors": "#6A0032",
+            "id": 49,
+            "White": true,
+            "Abbreviation": "CMIC",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Central_Michigan_Chippewas_logo.svg/500px-Central_Michigan_Chippewas_logo.svg.png"
+        },
+        {
+            "Team": "Charlotte",
+            "Nickname": "49ers",
+            "City": "Charlotte",
+            "Colors": "#046A38",
+            "id": 51,
+            "White": true,
+            "Abbreviation": "CHA",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Charlotte_49ers_logo.svg/500px-Charlotte_49ers_logo.svg.png"
+        },
+        {
+            "Team": "Cincinnati",
+            "Nickname": "Bearcats",
+            "City": "Cincinnati",
+            "Colors": "#E00122",
+            "id": 54,
+            "White": true,
+            "Abbreviation": "CIN",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Cincinnati_Bearcats_logo.svg/500px-Cincinnati_Bearcats_logo.svg.png"
+        },
+        {
+            "Team": "Clemson",
+            "Nickname": "Tigers",
+            "City": "Clemson",
+            "Colors": "#F56600",
+            "id": 57,
+            "Abbreviation": "CLEM",
+            "White": true,
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Clemson_Tigers_logo.svg/500px-Clemson_Tigers_logo.svg.png"
+        },
+        {
+            "Team": "Coastal Carolina",
+            "Nickname": "Chanticleers",
+            "City": "Conway",
+            "Colors": "#006F71",
+            "id": 59,
+            "Abbreviation": "CCAR",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Coastal_Carolina_Chanticleers_logo.svg/500px-Coastal_Carolina_Chanticleers_logo.svg.png"
+        },
+        {
+            "Team": "Colorado",
+            "Nickname": "Buffaloes",
+            "City": "Boulder",
+            "Colors": "#CFB87C",
+            "id": 61,
+            "Abbreviation": "COL",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Colorado_Buffaloes_logo.svg/500px-Colorado_Buffaloes_logo.svg.png"
+        },
+        {
+            "Team": "Colorado State",
+            "Nickname": "Rams",
+            "City": "Fort Collins",
+            "Colors": "#006A4D",
+            "id": 62,
+            "Abbreviation": "CSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Colorado_State_Rams_logo.svg/500px-Colorado_State_Rams_logo.svg.png"
+        },
+        {
+            "Team": "Duke",
+            "Nickname": "Blue Devils",
+            "City": "Durham",
+            "Colors": "#001A57",
+            "id": 75,
+            "Abbreviation": "DUKE",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Duke_Athletics_logo.svg/500px-Duke_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "East Carolina",
+            "Nickname": "Pirates",
+            "City": "Greenville",
+            "Colors": "#592A8A",
+            "id": 77,
+            "Abbreviation": "ECU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/East_Carolina_Pirates_logo.svg/500px-East_Carolina_Pirates_logo.svg.png"
+        },
+        {
+            "Team": "Eastern Michigan",
+            "Nickname": "Eagles",
+            "City": "Ypsilanti",
+            "Colors": "#046A38",
+            "White": true,
+            "id": 81,
+            "Abbreviation": "EMU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Eastern_Michigan_Eagles_logo.svg/500px-Eastern_Michigan_Eagles_logo.svg.png"
+        },
+        {
+            "Team": "Florida Atlantic",
+            "Nickname": "Owls",
+            "City": "Boca Raton",
+            "Colors": "#003366",
+            "id": 91,
+            "Abbreviation": "FAU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Florida_Atlantic_Owls_logo.svg/500px-Florida_Atlantic_Owls_logo.svg.png"
+        },
+        {
+            "Team": "FIU",
+            "Nickname": "Panthers",
+            "City": "Miami",
+            "Colors": "#B6862C",
+            "id": 88,
+            "Abbreviation": "FIU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/FIU_Panthers_logo.svg/500px-FIU_Panthers_logo.svg.png"
+        },
+        {
+            "Team": "Florida",
+            "Nickname": "Gators",
+            "City": "Gainesville",
+            "Colors": "#003087",
+            "id": 89,
+            "Abbreviation": "FLA",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Florida_Gators_gator_logo.svg/500px-Florida_Gators_gator_logo.svg.png"
+        },
+        {
+            "Team": "Florida State",
+            "Nickname": "Seminoles",
+            "City": "Tallahassee",
+            "Colors": "#782F40",
+            "id": 92,
+            "Abbreviation": "FSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Florida_State_Seminoles_logo.svg/500px-Florida_State_Seminoles_logo.svg.png"
+        },
+        {
+            "Team": "Fresno State",
+            "Nickname": "Bulldogs",
+            "City": "Fresno",
+            "Colors": "#CC0033",
+            "id": 94,
+            "Abbreviation": "FRES",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Fresno_State_Bulldogs_logo.svg/500px-Fresno_State_Bulldogs_logo.svg.png"
+        },
+        {
+            "Team": "Georgia",
+            "Nickname": "Bulldogs",
+            "City": "Athens",
+            "Colors": "#BA0C2F",
+            "id": 98,
+            "Abbreviation": "UGA",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Georgia_Athletics_logo.svg/500px-Georgia_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "Georgia Southern",
+            "Nickname": "Eagles",
+            "City": "Statesboro",
+            "Colors": "#011E41",
+            "id": 99,
+            "Abbreviation": "GSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Georgia_Southern_Eagles_logo.svg/500px-Georgia_Southern_Eagles_logo.svg.png"
+        },
+        {
+            "Team": "Georgia State",
+            "Nickname": "Panthers",
+            "City": "Atlanta",
+            "Colors": "#0039A6",
+            "id": 100,
+            "Abbreviation": "GAST",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Georgia_State_Athletics_logo.svg/500px-Georgia_State_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "Georgia Tech",
+            "Nickname": "Yellow Jackets",
+            "City": "Atlanta",
+            "Colors": "#B3A369",
+            "id": 101,
+            "Abbreviation": "GT",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Georgia_Tech_Yellow_Jackets_logo.svg/500px-Georgia_Tech_Yellow_Jackets_logo.svg.png"
+        },
+        {
+            "Team": "Hawaii",
+            "Nickname": "Rainbow Warriors",
+            "City": null,
+            "Colors": null,
+            "id": null,
+            "Abbreviation": null,
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Hawaii_Warriors_logo.svg/500px-Hawaii_Warriors_logo.svg.png"
+        },
+        {
+            "Team": "Houston",
+            "Nickname": "Cougars",
+            "City": "Houston",
+            "Colors": "#C8102E",
+            "id": 112,
+            "Abbreviation": "HOU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Houston_Cougars_primary_logo.svg/500px-Houston_Cougars_primary_logo.svg.png"
+        },
+        {
+            "Team": "Illinois",
+            "Nickname": "Fighting Illini",
+            "City": "Urbana-Champaign",
+            "Colors": "#13294B",
+            "id": 117,
+            "Abbreviation": "ILL",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Illinois_Fighting_Illini_logo.svg/500px-Illinois_Fighting_Illini_logo.svg.png"
+        },
+        {
+            "Team": "Indiana",
+            "Nickname": "Hoosiers",
+            "City": "Bloomington",
+            "Colors": "#990000",
+            "id": 120,
+            "White": true, 
+            "Abbreviation": "IND",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Indiana_Hoosiers_logo.svg/500px-Indiana_Hoosiers_logo.svg.png"
+        },
+        {
+            "Team": "Iowa",
+            "Nickname": "Hawkeyes",
+            "City": "Iowa City",
+            "Colors": "#FFCD00",
+            "id": 123,
+            "Abbreviation": "IOWA",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Iowa_Hawkeyes_logo.svg/500px-Iowa_Hawkeyes_logo.svg.png"
+        },
+        {
+            "Team": "Iowa State",
+            "Nickname": "Cyclones",
+            "City": "Ames",
+            "Colors": "#C8102E",
+            "id": 124,
+            "Abbreviation": "ISU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Iowa_State_Cyclones_logo.svg/500px-Iowa_State_Cyclones_logo.svg.png"
+        },
+        {
+            "Team": "Jacksonville State",
+            "Nickname": "Gamecocks",
+            "City": "Jacksonville",
+            "Colors": "#CC0000",
+            "id": 128,
+            "Abbreviation": "JVSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Jacksonville_State_Gamecocks_logo.svg/500px-Jacksonville_State_Gamecocks_logo.svg.png"
+        },
+        {
+            "Team": "James Madison",
+            "Nickname": "Dukes",
+            "City": "Harrisonburg",
+            "Colors": "#450084",
+            "id": 129,
+            "Abbreviation": "JMU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/JMU_Duke_Dog_Head_logo.png/500px-JMU_Duke_Dog_Head_logo.png"
+        },
+        {
+            "Team": "Kansas",
+            "Nickname": "Jayhawks",
+            "City": "Lawrence",
+            "Colors": "#E8000D",
+            "id": 130,
+            "Abbreviation": "KU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Kansas_Jayhawks_1946_logo.svg/500px-Kansas_Jayhawks_1946_logo.svg.png"
+        },
+        {
+            "Team": "Kansas State",
+            "Nickname": "Wildcats",
+            "City": "Manhattan",
+            "Colors": "#512888",
+            "id": 131,
+            "Abbreviation": "KSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Kansas_State_Wildcats_logo.svg/500px-Kansas_State_Wildcats_logo.svg.png"
+        },
+        {
+            "Team": "Kennesaw State",
+            "Nickname": "Owls",
+            "City": "Kennesaw",
+            "Colors": "#FDBB30",
+            "id": 132,
+            "Abbreviation": "KENN",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kennesaw_State_Owls_logo.svg/500px-Kennesaw_State_Owls_logo.svg.png"
+        },
+        {
+            "Team": "Kent State",
+            "Nickname": "Golden Flashes",
+            "City": "Kent",
+            "Colors": "#002664",
+            "id": 133,
+            "Abbreviation": "KENT",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Kent_State_athletic_logo.svg/500px-Kent_State_athletic_logo.svg.png"
+        },
+        {
+            "Team": "Kentucky",
+            "Nickname": "Wildcats",
+            "City": "Lexington",
+            "Colors": "#0033A0",
+            "id": 134,
+            "Abbreviation": "UK",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Kentucky_Wildcats_logo.svg/500px-Kentucky_Wildcats_logo.svg.png"
+        },
+        {
+            "Team": "Liberty",
+            "Nickname": "Flames",
+            "City": "Lynchburg",
+            "Colors": "#0A254E",
+            "id": 139,
+            "Abbreviation": "LIB",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Liberty_Flames_wordmark.svg/225px-Liberty_Flames_wordmark.svg.png"
+        },
+        {
+            "Team": "Louisiana",
+            "Nickname": "Ragin' Cajuns",
+            "City": "Lafayette",
+            "Colors": "#CE181E",
+            "id": 145,
+            "Abbreviation": "LOUI",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Ragin_Cajuns_logo.svg/500px-Ragin_Cajuns_logo.svg.png"
+        },
+        {
+            "Team": "Louisiana-Monroe",
+            "Nickname": "Warhawks",
+            "City": "Monroe",
+            "Colors": "#840029",
+            "id": 140,
+            "Abbreviation": "ULM",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Louisiana-Monroe_Warhawks_logo.svg/263px-Louisiana-Monroe_Warhawks_logo.svg.png"
+        },
+        {
+            "Team": "Louisiana Tech",
+            "Nickname": "Bulldogs",
+            "City": "Ruston",
+            "Colors": "#003087",
+            "id": 146,
+            "Abbreviation": "LT",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Louisiana_Tech_Athletics_logo.svg/300px-Louisiana_Tech_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "Louisville",
+            "Nickname": "Cardinals",
+            "City": "Louisville",
+            "Colors": "#AD0000",
+            "id": 148,
+            "Abbreviation": "LOU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Louisville_Cardinals_logo.svg/185px-Louisville_Cardinals_logo.svg.png"
+        },
+        {
+            "Team": "LSU",
+            "Nickname": "Tigers",
+            "City": "Baton Rouge",
+            "Colors": "#461D7C",
+            "id": 151,
+            "Abbreviation": "LSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/LSU_Athletics_logo.svg/338px-LSU_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "Marshall",
+            "Nickname": "Thundering Herd",
+            "City": "Huntington",
+            "Colors": "#00B140",
+            "id": 156,
+            "Abbreviation": "MAR",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Marshall_Thundering_Herd_logo.svg/500px-Marshall_Thundering_Herd_logo.svg.png"
+        },
+        {
+            "Team": "Maryland",
+            "Nickname": "Terrapins",
+            "City": "College Park",
+            "Colors": "#E03A3E",
+            "id": 157,
+            "Abbreviation": "MD",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Maryland_Terrapins_logo.svg/500px-Maryland_Terrapins_logo.svg.png"
+        },
+        {
+            "Team": "Memphis",
+            "Nickname": "Tigers",
+            "City": "Memphis",
+            "Colors": "#003087",
+            "id": 160,
+            "Abbreviation": "MEM",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Memphis_Tigers_logo.svg/500px-Memphis_Tigers_logo.svg.png"
+        },
+        {
+            "Team": "Miami (FL)",
+            "Nickname": "Hurricanes",
+            "City": "Coral Gables",
+            "Colors": "#F47321",
+            "id": 163,
+            "Abbreviation": "MIA",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Miami_Hurricanes_logo.svg/300px-Miami_Hurricanes_logo.svg.png"
+        },
+        {
+            "Team": "Miami (OH)",
+            "Nickname": "RedHawks",
+            "City": "Oxford",
+            "Colors": "#B61E2E",
+            "id": 164,
+            "Abbreviation": "MOH",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Miami_Redhawks_logo.svg/300px-Miami_Redhawks_logo.svg.png"
+        },
+        {
+            "Team": "Michigan",
+            "Nickname": "Wolverines",
+            "City": "Ann Arbor",
+            "Colors": "#FFCB05",
+            "id": 165,
+            "Abbreviation": "MICH",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Michigan_Wolverines_logo.svg/500px-Michigan_Wolverines_logo.svg.png"
+        },
+        {
+            "Team": "Michigan State",
+            "Nickname": "Spartans",
+            "City": "East Lansing",
+            "Colors": "#18453B",
+            "id": 166,
+            "Abbreviation": "MSU",
+            "White": true,
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Michigan_State_Athletics_logo.svg/500px-Michigan_State_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "Middle Tennessee",
+            "Nickname": "Blue Raiders",
+            "City": "Murfreesboro",
+            "Colors": "#0066CC",
+            "id": 168,
+            "Abbreviation": "MTS",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Middle_Tennessee_MT_Logomark.svg/278px-Middle_Tennessee_MT_Logomark.svg.png"
+        },
+        {
+            "Team": "Minnesota",
+            "Nickname": "Golden Gophers",
+            "City": "Minneapolis",
+            "Colors": "#7A0019",
+            "id": 170,
+            "Abbreviation": "MIN",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Minnesota_Golden_Gophers_logo.svg/500px-Minnesota_Golden_Gophers_logo.svg.png"
+        },
+        {
+            "Team": "Mississippi State",
+            "Nickname": "Bulldogs",
+            "City": "Starkville",
+            "Colors": "#660000",
+            "id": 173,
+            "Abbreviation": "MSST",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Mississippi_State_University_Bulldogs_Logo_Official.svg/500px-Mississippi_State_University_Bulldogs_Logo_Official.svg.png"
+        },
+        {
+            "Team": "Missouri",
+            "Nickname": "Tigers",
+            "City": "Columbia",
+            "Colors": "#C69214",
+            "id": 175,
+            "Abbreviation": "MIZ",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Missouri_Tigers_logo.svg/500px-Missouri_Tigers_logo.svg.png"
+        },
+        {
+            "Team": "Navy",
+            "Nickname": "Midshipmen",
+            "City": "Annapolis",
+            "Colors": "#C5B783",
+            "id": 183,
+            "Abbreviation": "NAVY",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Navy_Athletics_logo.svg/500px-Navy_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "NC State",
+            "Nickname": "Wolfpack",
+            "City": "Raleigh",
+            "Colors": "#CC0000",
+            "id": 184,
+            "Abbreviation": "NCST",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/NC_State_Wolfpack_logo.svg/500px-NC_State_Wolfpack_logo.svg.png"
+        },
+        {
+            "Team": "Nebraska",
+            "Nickname": "Cornhuskers",
+            "City": "Lincoln",
+            "Colors": "#E41C38",
+            "id": 185,
+            "Abbreviation": "NEB",
+            "White": true,
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nebraska_Cornhuskers_logo.svg/500px-Nebraska_Cornhuskers_logo.svg.png"
+        },
+        {
+            "Team": "Nevada",
+            "Nickname": "Wolf Pack",
+            "City": "Reno",
+            "Colors": "#003366",
+            "id": 186,
+            "Abbreviation": "NEV",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Nevada_Wolf_Pack_logo.svg/500px-Nevada_Wolf_Pack_logo.svg.png"
+        },
+        {
+            "Team": "New Mexico",
+            "Nickname": "Lobos",
+            "City": "Albuquerque",
+            "Colors": "#BA0C2F",
+            "id": 188,
+            "Abbreviation": "UNM",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/New_Mexico_Lobos_logo.svg/500px-New_Mexico_Lobos_logo.svg.png"
+        },
+        {
+            "Team": "New Mexico State",
+            "Nickname": "Aggies",
+            "City": "Las Cruces",
+            "Colors": "#891216",
+            "id": 189,
+            "Abbreviation": "NMSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/New_Mexico_State_Aggies_logo.svg/500px-New_Mexico_State_Aggies_logo.svg.png"
+        },
+        {
+            "Team": "North Carolina",
+            "Nickname": "Tar Heels",
+            "City": "Chapel Hill",
+            "Colors": "#7BAFD4",
+            "id": 194,
+            "Abbreviation": "UNC",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/500px-North_Carolina_Tar_Heels_logo.svg.png"
+        },
+        {
+            "Team": "North Texas",
+            "Nickname": "Mean Green",
+            "City": "Denton",
+            "Colors": "#00853E",
+            "id": 199,
+            "Abbreviation": "UNT",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/North_Texas_Mean_Green_logo.svg/500px-North_Texas_Mean_Green_logo.svg.png"
+        },
+        {
+            "Team": "Northern Illinois",
+            "Nickname": "Huskies",
+            "City": "DeKalb",
+            "Colors": "#BA0C2F",
+            "id": 202,
+            "Abbreviation": "NOIL",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Northern_Illinois_Huskies_logo.svg/500px-Northern_Illinois_Huskies_logo.svg.png"
+        },
+        {
+            "Team": "Northwestern",
+            "Nickname": "Wildcats",
+            "City": "Evanston",
+            "Colors": "#4E2A84",
+            "id": 205,
+            "Abbreviation": "NWEST",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Northwestern_Wildcats_logo.svg/500px-Northwestern_Wildcats_logo.svg.png"
+        },
+        {
+            "Team": "Notre Dame",
+            "Nickname": "Fighting Irish",
+            "City": "South Bend",
+            "Colors": "#0C2340",
+            "id": 207,
+            "Abbreviation": "ND",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Notre_Dame_Fighting_Irish_logo.svg/270px-Notre_Dame_Fighting_Irish_logo.svg.png"
+        },
+        {
+            "Team": "Ohio",
+            "Nickname": "Bobcats",
+            "City": "Athens",
+            "Colors": "#00694E",
+            "id": 209,
+            "Abbreviation": "OHIO",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Ohio_Bobcats_logo.svg/500px-Ohio_Bobcats_logo.svg.png"
+        },
+        {
+            "Team": "Ohio State",
+            "Nickname": "Buckeyes",
+            "White": true,
+            "City": "Columbus",
+            "Colors": "#BB0000",
+            "id": 210,
+            "Abbreviation": "OSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/500px-Ohio_State_Buckeyes_logo.svg.png"
+        },
+        {
+            "Team": "Oklahoma",
+            "Nickname": "Sooners",
+            "City": "Norman",
+            "Colors": "#841617",
+            "id": 211,
+            "Abbreviation": "OU",
+            "White": true,
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Oklahoma_Sooners_logo.svg/500px-Oklahoma_Sooners_logo.svg.png"
+        },
+        {
+            "Team": "Oklahoma State",
+            "Nickname": "Cowboys",
+            "City": "Stillwater",
+            "Colors": "#FF7300",
+            "id": 212,
+            "Abbreviation": "OKST",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Oklahoma_State_University_system_logo.svg/500px-Oklahoma_State_University_system_logo.svg.png"
+        },
+        {
+            "Team": "Old Dominion",
+            "Nickname": "Monarchs",
+            "City": "Norfolk",
+            "Colors": "#00325B",
+            "id": 213,
+            "Abbreviation": "ODU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Old_Dominion_Athletics_logo.svg/500px-Old_Dominion_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "Ole Miss",
+            "Nickname": "Rebels",
+            "City": "Oxford",
+            "Colors": "#CE1126",
+            "id": 214,
+            "Abbreviation": "MISS",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_of_The_Ole_Miss_Rebels.png/500px-Logo_of_The_Ole_Miss_Rebels.png"
+        },
+        {
+            "Team": "Oregon",
+            "Nickname": "Ducks",
+            "City": "Eugene",
+            "Colors": "#FEE11A",
+            "id": 217,
+            "Abbreviation": "ORE",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oregon_Ducks_logo.svg/500px-Oregon_Ducks_logo.svg.png"
+        },
+        {
+            "Team": "Oregon State",
+            "Nickname": "Beavers",
+            "City": "Corvallis",
+            "Colors": "#DC4405",
+            "id": 218,
+            "Abbreviation": "ORST",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Oregon_State_Beavers_logo.svg/500px-Oregon_State_Beavers_logo.svg.png"
+        },
+        {
+            "Team": "Penn State",
+            "Nickname": "Nittany Lions",
+            "City": "State College",
+            "Colors": "#093162",
+            "id": 221,
+            "Abbreviation": "PS",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Penn_State_Nittany_Lions_logo.svg/500px-Penn_State_Nittany_Lions_logo.svg.png"
+        },
+        {
+            "Team": "Pittsburgh",
+            "Nickname": "Panthers",
+            "City": "Pittsburgh",
+            "Colors": "#1C2957",
+            "id": 223,
+            "Abbreviation": "PITT",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Pitt_Panthers_wordmark.svg/500px-Pitt_Panthers_wordmark.svg.png"
+        },
+        {
+            "Team": "Purdue",
+            "Nickname": "Boilermakers",
+            "City": "West Lafayette",
+            "Colors": "#CEB888",
+            "id": 231,
+            "Abbreviation": "PUR",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Purdue_Boilermakers_logo.svg/500px-Purdue_Boilermakers_logo.svg.png"
+        },
+        {
+            "Team": "Rice",
+            "Nickname": "Owls",
+            "City": "Houston",
+            "Colors": "#00205B",
+            "id": 236,
+            "White": true,
+            "Abbreviation": "RICE",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rice_Owls_logo.svg/500px-Rice_Owls_logo.svg.png"
+        },
+        {
+            "Team": "Rutgers",
+            "Nickname": "Scarlet Knights",
+            "City": "Piscataway",
+            "Colors": "#CC0033",
+            "id": 242,
+            "Abbreviation": "RUTG",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Rutgers_Scarlet_Knights_logo.svg/500px-Rutgers_Scarlet_Knights_logo.svg.png"
+        },
+        {
+            "Team": "Sam Houston",
+            "Nickname": "Bearkats",
+            "City": "Huntsville",
+            "Colors": "#F78E1E",
+            "id": 250,
+            "White": true,
+            "Abbreviation": "SHSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/SHSU_athletics_logo.svg/500px-SHSU_athletics_logo.svg.png"
+        },
+        {
+            "Team": "San Diego State",
+            "Nickname": "Aztecs",
+            "City": "San Diego",
+            "Colors": "#C41230",
+            "id": 253,
+            "Abbreviation": "SDSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/San_Diego_State_Aztecs_logo.svg/500px-San_Diego_State_Aztecs_logo.svg.png"
+        },
+        {
+            "Team": "San Jose State",
+            "Nickname": "Spartans",
+            "City": "San Jose",
+            "Colors": "#005298",
+            "id": 255,
+            "Abbreviation": "SJSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/San_Jose_State_Spartans_logo.svg/500px-San_Jose_State_Spartans_logo.svg.png"
+        },
+        {
+            "Team": "SMU",
+            "Nickname": "Mustangs",
+            "City": "University Park",
+            "Colors": "#354CA1",
+            "id": 262,
+            "Abbreviation": "SMU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/SMU_Mustang_logo.svg/500px-SMU_Mustang_logo.svg.png"
+        },
+        {
+            "Team": "South Alabama",
+            "Nickname": "Jaguars",
+            "City": "Mobile",
+            "Colors": "#00205B",
+            "id": 263,
+            "Abbreviation": "USA",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Southalabama_jaguars_logo.png/500px-Southalabama_jaguars_logo.png"
+        },
+        {
+            "Team": "South Carolina",
+            "Nickname": "Gamecocks",
+            "City": "Columbia",
+            "Colors": "#73000A",
+            "id": 264,
+            "Abbreviation": "SC",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/South_Carolina_Gamecocks_logo.svg/500px-South_Carolina_Gamecocks_logo.svg.png"
+        },
+        {
+            "Team": "South Florida",
+            "Nickname": "Bulls",
+            "City": "Tampa",
+            "Colors": "#006747",
+            "id": 268,
+            "Abbreviation": "USF",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Official_USF_Bulls_Athletic_Logo.png/500px-Official_USF_Bulls_Athletic_Logo.png"
+        },
+        {
+            "Team": "Southern Miss",
+            "Nickname": "Golden Eagles",
+            "City": "Hattiesburg",
+            "Colors": "#FFD046",
+            "id": 272,
+            "Abbreviation": "USM",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Southern_Miss_Athletics_logo.svg/500px-Southern_Miss_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "Stanford",
+            "Nickname": "Cardinal",
+            "City": "Stanford",
+            "Colors": "#8C1515",
+            "id": 279,
+            "Abbreviation": "STAN",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Stanford_Cardinal_logo.svg/500px-Stanford_Cardinal_logo.svg.png"
+        },
+        {
+            "Team": "Syracuse",
+            "Nickname": "Orange",
+            "City": "Syracuse",
+            "Colors": "#D44500",
+            "id": 283,
+            "Abbreviation": "SYR",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Syracuse_Orange_logo.svg/500px-Syracuse_Orange_logo.svg.png"
+        },
+        {
+            "Team": "TCU",
+            "Nickname": "Horned Frogs",
+            "City": "Fort Worth",
+            "Colors": "#4D1979",
+            "id": 284,
+            "White": true,
+            "Abbreviation": "TCU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/TCU_Horned_Frogs_logo.svg/500px-TCU_Horned_Frogs_logo.svg.png"
+        },
+        {
+            "Team": "Temple",
+            "Nickname": "Owls",
+            "City": "Philadelphia",
+            "Colors": "#9D2235",
+            "id": 285,
+            "Abbreviation": "TMPL",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Temple_T_logo.svg/500px-Temple_T_logo.svg.png"
+        },
+        {
+            "Team": "Tennessee",
+            "Nickname": "Volunteers",
+            "City": "Knoxville",
+            "Colors": "#FF8200",
+            "id": 286,
+            "Abbreviation": "TENN",
+            "White": true,
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tennessee_Volunteers_logo.svg/500px-Tennessee_Volunteers_logo.svg.png"
+        },
+        {
+            "Team": "Texas",
+            "Nickname": "Longhorns",
+            "City": "Austin",
+            "Colors": "#BF5700",
+            "id": 289,
+            "Abbreviation": "TEX",
+            "White": true,
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Texas_Longhorns_logo.svg/500px-Texas_Longhorns_logo.svg.png"
+        },
+        {
+            "Team": "Texas A&M",
+            "Nickname": "Aggies",
+            "City": "College Station",
+            "Colors": "#500000",
+            "id": 290,
+            "Abbreviation": "TAMU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Texas_A%26M_Aggies_Primary_Logo_%282021-Present%29.png/500px-Texas_A%26M_Aggies_Primary_Logo_%282021-Present%29.png"
+        },
+        {
+            "Team": "Texas State",
+            "Nickname": "Bobcats",
+            "City": "San Marcos",
+            "Colors": "#501214",
+            "id": 293,
+            "Abbreviation": "TXST",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Texas_State_Bobcats_logo.svg/500px-Texas_State_Bobcats_logo.svg.png"
+        },
+        {
+            "Team": "Texas Tech",
+            "Nickname": "Red Raiders",
+            "City": "Lubbock",
+            "Colors": "#CC0000",
+            "id": 294,
+            "Abbreviation": "TTU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Texas_Tech_Athletics_logo.svg/500px-Texas_Tech_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "Toledo",
+            "Nickname": "Rockets",
+            "City": "Toledo",
+            "Colors": "#15397F",
+            "id": 295,
+            "Abbreviation": "TOL",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Toledo_Rockets_logo.svg/500px-Toledo_Rockets_logo.svg.png"
+        },
+        {
+            "Team": "Troy",
+            "Nickname": "Trojans",
+            "City": "Troy",
+            "Colors": "#6D0017",
+            "id": 297,
+            "Abbreviation": "TROY",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Troy_Trojans_logo.svg/500px-Troy_Trojans_logo.svg.png"
+        },
+        {
+            "Team": "Tulane",
+            "Nickname": "Green Wave",
+            "City": "New Orleans",
+            "Colors": "#006747",
+            "id": 298,
+            "Abbreviation": "TUL",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Tulane_Green_Wave_logo.svg/500px-Tulane_Green_Wave_logo.svg.png"
+        },
+        {
+            "Team": "Tulsa",
+            "Nickname": "Golden Hurricane",
+            "City": "Tulsa",
+            "Colors": "#002D72",
+            "id": 299,
+            "White": true,
+            "Abbreviation": "TLSA",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tulsa_Golden_Hurricane_logo.svg/500px-Tulsa_Golden_Hurricane_logo.svg.png"
+        },
+        {
+            "Team": "UAB",
+            "Nickname": "Blazers",
+            "City": "Birmingham",
+            "Colors": "#1E6B52",
+            "id": 300,
+            "Abbreviation": "UAB",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/UAB_Blazers_logo.svg/500px-UAB_Blazers_logo.svg.png"
+        },
+        {
+            "Team": "UCF",
+            "Nickname": "Knights",
+            "City": "Orlando",
+            "Colors": "#BA9B37",
+            "id": 306,
+            "Abbreviation": "UCF",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/UCF_Knights_logo.svg/500px-UCF_Knights_logo.svg.png"
+        },
+        {
+            "Team": "UCLA",
+            "Nickname": "Bruins",
+            "City": "Los Angeles",
+            "Colors": "#F2A900",
+            "id": 307,
+            "Abbreviation": "UCLA",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/UCLA_Bruins_primary_logo.svg/500px-UCLA_Bruins_primary_logo.svg.png"
+        },
+        {
+            "Team": "UConn",
+            "Nickname": "Huskies",
+            "City": null,
+            "Colors": null,
+            "id": null,
+            "Abbreviation": null,
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Connecticut_Huskies_logo.svg/500px-Connecticut_Huskies_logo.svg.png"
+        },
+        {
+            "Team": "UMass",
+            "Nickname": "Minutemen",
+            "City": "Amherst",
+            "Colors": "#971B2F",
+            "id": 309,
+            "Abbreviation": "UMAS",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/UMass_Amherst_athletics_logo.svg/225px-UMass_Amherst_athletics_logo.svg.png"
+        },
+        {
+            "Team": "UNLV",
+            "Nickname": "Rebels",
+            "City": "Las Vegas",
+            "Colors": "#CF0A2C",
+            "id": 316,
+            "Abbreviation": "UNLV",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/UNLV_Rebels_wordmark.svg/500px-UNLV_Rebels_wordmark.svg.png"
+        },
+        {
+            "Team": "USC",
+            "Nickname": "Trojans",
+            "City": "Los Angeles",
+            "Colors": "#990000",
+            "id": 317,
+            "Abbreviation": "USC",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/9/94/USC_Trojans_logo.svg"
+        },
+        {
+            "Team": "Utah",
+            "Nickname": "Utes",
+            "City": "Salt Lake City",
+            "Colors": "#CC0000",
+            "id": 322,
+            "Abbreviation": "UTAH",
+            "White": true,
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Utah_Utes_primary_logo.svg/500px-Utah_Utes_primary_logo.svg.png"
+        },
+        {
+            "Team": "Utah State",
+            "Nickname": "Aggies",
+            "City": "Logan",
+            "Colors": "#0F2439",
+            "id": 323,
+            "Abbreviation": "USU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Utah_State_Aggies_logo.svg/500px-Utah_State_Aggies_logo.svg.png"
+        },
+        {
+            "Team": "UTEP",
+            "Nickname": "Miners",
+            "City": "El Paso",
+            "Colors": "#FF8200",
+            "id": 325,
+            "Abbreviation": "UTEP",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/UTEP_Miners_logo.svg/500px-UTEP_Miners_logo.svg.png"
+        },
+        {
+            "Team": "UTSA",
+            "Nickname": "Roadrunners",
+            "City": "San Antonio",
+            "Colors": "#002244",
+            "id": 326,
+            "Abbreviation": "UTSA",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/UTSA_Athletics_logo.svg/500px-UTSA_Athletics_logo.svg.png"
+        },
+        {
+            "Team": "Vanderbilt",
+            "Nickname": "Commodores",
+            "City": "Nashville",
+            "Colors": "#A8996E",
+            "id": 328,
+            "Abbreviation": "VAND",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Vanderbilt_Commodores_%282022%29_logo.svg/500px-Vanderbilt_Commodores_%282022%29_logo.svg.png"
+        },
+        {
+            "Team": "Virginia",
+            "Nickname": "Cavaliers",
+            "City": "Charlottesville",
+            "Colors": "#232D4B",
+            "id": 332,
+            "Abbreviation": "UVA",
+            "White": true,
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Virginia_Cavaliers_logo.svg/500px-Virginia_Cavaliers_logo.svg.png"
+        },
+        {
+            "Team": "Virginia Tech",
+            "Nickname": "Hokies",
+            "City": "Blacksburg",
+            "Colors": "#6A2C3E",
+            "id": 333,
+            "Abbreviation": "VT",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Virginia_Tech_Hokies_logo.svg/500px-Virginia_Tech_Hokies_logo.svg.png"
+        },
+        {
+            "Team": "Wake Forest",
+            "Nickname": "Demon Deacons",
+            "City": "Winston-Salem",
+            "Colors": "#A67F31",
+            "id": 336,
+            "Abbreviation": "WF",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wake_Forest_University_Athletic_logo.svg/500px-Wake_Forest_University_Athletic_logo.svg.png"
+        },
+        {
+            "Team": "Washington",
+            "Nickname": "Huskies",
+            "City": "Seattle",
+            "Colors": "#363C74",
+            "id": 337,
+            "Abbreviation": "WASH",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Washington_Huskies_logo.svg/500px-Washington_Huskies_logo.svg.png"
+        },
+        {
+            "Team": "Washington State",
+            "Nickname": "Cougars",
+            "City": "Pullman",
+            "Colors": "#981E32",
+            "id": 338,
+            "Abbreviation": "WSU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Washington_State_Cougars_logo.svg/500px-Washington_State_Cougars_logo.svg.png"
+        },
+        {
+            "Team": "West Virginia",
+            "Nickname": "Mountaineers",
+            "City": "Morgantown",
+            "Colors": "#EAAA00",
+            "id": 340,
+            "Abbreviation": "WVU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/West_Virginia_Mountaineers_logo.svg/500px-West_Virginia_Mountaineers_logo.svg.png"
+        },
+        {
+            "Team": "Western Kentucky",
+            "Nickname": "Hilltoppers",
+            "City": "Bowling Green",
+            "Colors": "#B01E24",
+            "id": 343,
+            "Abbreviation": "WKU",
+            "logos": "https://upload.wikimedia.org/wikipedia/en/1/1d/WKU_Athletics_logo.svg"
+        },
+        {
+            "Team": "Western Michigan",
+            "Nickname": "Broncos",
+            "City": "Kalamazoo",
+            "Colors": "#6C4023",
+            "id": 344,
+            "Abbreviation": "WMU",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Western_Michigan_Broncos_%282021%29_logo.svg/500px-Western_Michigan_Broncos_%282021%29_logo.svg.png"
+        },
+        {
+            "Team": "Wisconsin",
+            "Nickname": "Badgers",
+            "City": "Madison",
+            "Colors": "#C5050C",
+            "id": 348,
+            "White": true,
+            "Abbreviation": "WISC",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wisconsin_Badgers_logo.svg/500px-Wisconsin_Badgers_logo.svg.png"
+        },
+        {
+            "Team": "Wyoming",
+            "Nickname": "Cowboys",
+            "City": "Laramie",
+            "Colors": "#492F24",
+            "id": 351,
+            "Abbreviation": "WYO",
+            "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wyoming_Athletics_logo.svg/500px-Wyoming_Athletics_logo.svg.png"
+        }
+    ]
+}

@@ -1,0 +1,328 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  color: #FFF;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  background: #000;
+}
+
+.answer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background: #000;
+}
+
+.missed-team-holder {
+  height: 45vh;
+  width: 80%;
+  overflow-y: scroll;
+  margin: 0 auto;
+  margin-bottom: 1%;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+ul.react-autosuggest__suggestions-list {
+  display: flex;
+}
+
+ul.react-autosuggest__suggestions-list li {
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
+  background: #000;
+  margin-right: 1%;
+  font-size: 2em;
+
+}
+
+div#react-autowhatever-1 {
+  min-height: 5em;
+}
+
+.game {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1%;
+  text-align: center;
+  background: #0000009e;
+  color: #FFF;
+}
+
+body {
+  background: linear-gradient(90deg, orange, black);
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: "Oswald", sans-serif;
+}
+
+.bristol-container {
+  height: 5em;
+  width: 90%;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 1em;
+  position: relative;
+}
+
+.bristol-holder {
+  height: 3em;
+  width: 90%;
+  background: #000;
+  border-style: solid;
+  border-top-color: red;
+  border-bottom-color: #f1b100;
+  position: absolute;
+  right: 0;
+  font-family: "Instrument Sans", sans-serif;
+  color: #FFF;
+  border-left: none;
+  border-right: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.bristol-super-container {
+  position: relative;
+}
+
+.bristol-logo {
+  position: absolute;
+  height: 100%;
+  z-index: 9999;
+  margin-left: 3em;
+  width: 10%;
+  background: url(./logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bristol-score {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 90%;
+  font-weight: bold;
+
+}
+
+
+.game-graphic {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.game-window {
+  width: 20%;
+  height: 80%;
+  position: relative;
+  background: grey;
+  overflow: hidden;
+  margin-left: 1%;
+  border-radius: 1em;
+}
+
+.game-game {
+  width: 80%;
+  height: 80%;
+}
+
+.game {
+  height: 85vh;
+  margin-top: 1vh;
+}
+
+.current-team {
+  text-align: left;
+  padding: 1%;
+  font-size: 2em;
+}
+
+.game-game input {
+  font-size: 3em;
+  text-align: center;
+}
+
+button {
+  font-size: 3em;
+  border-radius: 1em;
+}
+
+@media screen and (max-width:700px) {
+
+  .min-h-screen.flex.flex-col.items-center.justify-center {
+    width: 100vw;
+  }
+
+  html,
+  body {
+    width: -webkit-fill-available;
+    margin: 0 auto;
+  }
+
+  .game {
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .bristol-container {
+    width: 90vw;
+  }
+
+  input.react-autosuggest__input {
+    font-size: 1.6em;
+  }
+
+  .game-graphic {
+    display: block;
+  }
+
+  .game-window {}
+
+  button {
+    font-size: 2em;
+  }
+
+  .game-game {
+    width: 100%;
+  }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .game-graphic {
+    display: block;
+  }
+
+  .game-window {
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    margin-top: 0%;
+  }
+
+  .game {
+    padding-top: 2%;
+  }
+
+  .game-game {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 599px) {
+  .bristol-logo {
+    margin-left: 1em;
+  }
+
+  .bristol-super-container {
+    font-size: 1em;
+  }
+
+  .bristol-holder {
+    font-size: 1em;
+  }
+
+  .bristol-score {
+    font-size: 0.8em;
+  }
+
+  .game-window {
+    width: 80%;
+    margin: 0 auto;
+    height: 7em;
+  }
+
+  .game-graphic {
+    padding-top: 1%;
+  }
+
+  div#react-autowhatever-1 li {
+    font-size: 1em;
+  }
+
+  .game-game {
+    width: 80%;
+  }
+
+  .header,
+  .answer {
+    font-size: 0.6em;
+  }
+
+  .game-window {
+    background-size: 33% !important;
+  }
+
+}
