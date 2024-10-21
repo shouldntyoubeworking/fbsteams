@@ -344,10 +344,10 @@
         {
             "Team": "Hawaii",
             "Nickname": "Rainbow Warriors",
-            "City": null,
-            "Colors": null,
-            "id": null,
-            "Abbreviation": null,
+            "City": "Honolulu",
+            "Colors": "#005838",
+            "id": 168,
+            "Abbreviation": "HAW",
             "logos": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Hawaii_Warriors_logo.svg/500px-Hawaii_Warriors_logo.svg.png"
         },
         {

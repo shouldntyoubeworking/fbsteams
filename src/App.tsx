@@ -77,9 +77,14 @@ function App() {
 
 
   const handleSubmit = (event) => {
-    event.preventDefault();
-
-    if (inputValue.toLowerCase() === currentTeam.Nickname.toLowerCase() || event.target.innerHTML.toLowerCase() === currentTeam.Nickname.toLowerCase()) { // If correct
+    let stringValue = ""
+    try {
+      event.preventDefault();
+      
+    } catch (error) {
+      stringValue = event.toLowerCase();
+    }
+    if (inputValue.toLowerCase() === currentTeam.Nickname.toLowerCase() || event.target?.innerHTML.toLowerCase() === currentTeam.Nickname.toLowerCase() || stringValue === currentTeam.Nickname.toLowerCase()) { // If correct
       setCorrectGuesses([...correctGuesses, currentTeam.Team]);
       setScore(score + 1);
       setShowingLogo(currentTeam);
@@ -96,7 +101,6 @@ function App() {
       setTimeout(() => {
         pickRandomTeam();
         inputRef.current.focus(); 
-        setShowingLogo(null);
       }, 500);
     }
   };
@@ -133,7 +137,9 @@ function App() {
   };
   const onSuggestionSelected = (event, { suggestion }) => {
     setInputValue(suggestion);
-    handleSubmit(event);
+    let test = event;
+    test;
+    handleSubmit(suggestion);
   };
   const inputProps = {
     placeholder: 'Type the nickname',
@@ -273,7 +279,7 @@ function App() {
                       Skip
                     </button>
                     </> : <>
-                    <button type="submit">
+                    <button type="submit" onClick={handleSubmit}>
                       Submit
                     </button>
                     <button type="button" onClick={handleSkip}>
