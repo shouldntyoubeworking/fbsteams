@@ -17,6 +17,7 @@ function App() {
   const [quitQuiz, setQuitQuiz] = useState(false); 
   const [isPaused, setIsPaused] = useState(false); 
   const [showingLogo, setShowingLogo] = useState(null);
+  const [showStartScreen, setShowStartScreen] = useState(true); // New state for start screen
   const inputRef = useRef(null); 
   const { teams } = teamsData;
 
@@ -39,7 +40,7 @@ function App() {
   }, [isPaused]); 
 
   useEffect(() => {
-    if (timer > 0 && !gameOver && !quitQuiz && !isPaused) {
+    if (timer > 0 && !gameOver && !quitQuiz && !isPaused && !showStartScreen) {
       const countdown = setInterval(() => {
         setTimer((prevTimer) => prevTimer - 1);
       }, 1000);
@@ -48,7 +49,7 @@ function App() {
     } else if (timer === 0) {
       setGameOver(true); 
     }
-  }, [timer, gameOver, quitQuiz, isPaused]);
+  }, [timer, gameOver, quitQuiz, isPaused, showStartScreen]);
 
   const pickRandomTeam = () => {
     let remainingTeams = teams.filter(team => !picked.includes(team.Team));
@@ -64,6 +65,7 @@ function App() {
       setGameOver(true); 
     }
   };
+
   const handleSkip = () => {
     // Handle skipping the current team
     setFeedback('Skipped!');
@@ -73,8 +75,7 @@ function App() {
         pickRandomTeam();
         inputRef.current.focus();
     }, 500);
-};
-
+  };
 
   const handleSubmit = (event) => {
     let stringValue = ""
@@ -96,7 +97,7 @@ function App() {
     } else { // If wrong
       setFeedback('Wrong!');
       setShowingLogo(currentTeam);
-    setinCorrectGuesses([...incorrectGuesses, currentTeam.Team]);
+      setinCorrectGuesses([...incorrectGuesses, currentTeam.Team]);
 
       setTimeout(() => {
         pickRandomTeam();
@@ -170,60 +171,77 @@ function App() {
   const handlePause = () => {
     setIsPaused(prevPaused => !prevPaused); 
   };
+
   const formatTime = (timeInSeconds) => {
     const minutes = Math.floor(timeInSeconds / 60);
     const seconds = timeInSeconds % 60;
     return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
   };
-  return (
-    <div className="min-h-screen flex flex-col items-center justify-center">
-      <div className="bristol-super-container">
-        <div className='bristol-logo' >
+
+  const handleStart = () => {
+    setShowStartScreen(false);
+  };
+
+  if(showStartScreen) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center">
+        <div className="bristol-super-container">
+          <div className="bristol-logo"></div>
+          <div className="bristol-container">
+            <div className="bristol-holder">Guess Every FBS Team's Nickname</div>
+            <div className="bristol-score">
+             Can you name 134 FBS teams in 10 minutes?
+            </div>
+          </div>
+        </div>
+        <div className="game">
+        <button onClick={handleStart}>Start Quiz</button>
 
         </div>
-        <div className='bristol-container'>
-        <div className="bristol-holder">
-          Guess Every FBS Team's Nickname
-        </div>
-        <div className='bristol-score'>
-          Score: {score}/{teams.length}  Time Remaining: {formatTime(timer)} Remaining: {teams.filter(team => !correctGuesses.includes(team.Team) && !incorrectGuesses.includes(team.Team)).length}
-        </div>
-        </div>
       </div>
+    );
+  }
+
+
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center">
+        <div className="bristol-super-container">
+          <div className="bristol-logo"></div>
+          <div className="bristol-container">
+            <div className="bristol-holder">Guess Every FBS Team's Nickname</div>
+            <div className="bristol-score">
+              Score: {score}/{teams.length} Time Remaining: {formatTime(timer)} Remaining: {teams.filter(team => !correctGuesses.includes(team.Team) && !incorrectGuesses.includes(team.Team)).length}
+            </div>
+          </div>
+        </div>
       <div className="game">
         {quitQuiz ? (
           <div>
             <div>Quiz Quit!</div>
             <p>Your final score: {score}/{teams.length}</p>
-            <button onClick={handleRestart}>
-              Restart Quiz
-            </button>
+            <button onClick={handleRestart}>Restart Quiz</button>
           </div>
         ) : gameOver ? (
           <div>
             <div>Game Over!</div>
             <p>Your final score: {score}/{teams.length}</p>
-            <div className='missed-teams'>
+            <div className="missed-teams">
               You missed {incorrectGuesses.length}
-              <div className='missed-team-holder'>
-               {incorrectGuesses.map((team, index) => {
-                return <div className='missed-team' key={index}>{team}</div>
-              })}
-                {teams.filter(team => !correctGuesses.includes(team.Team) && !incorrectGuesses.includes(team.Team)).length > 0 ? <strong>You never got to</strong> : ""} {teams.filter(team => !correctGuesses.includes(team.Team) && !incorrectGuesses.includes(team.Team)).map((team, index) => {
-                return <div key={index} className='missed-team'>{team.Team}</div>
-              })}
-                </div>
+              <div className="missed-team-holder">
+                {incorrectGuesses.map((team, index) => (
+                  <div className="missed-team" key={index}>{team}</div>
+                ))}
+                {teams.filter(team => !correctGuesses.includes(team.Team) && !incorrectGuesses.includes(team.Team)).length > 0 ? <strong>You never got to</strong> : ""} {teams.filter(team => !correctGuesses.includes(team.Team) && !incorrectGuesses.includes(team.Team)).map((team, index) => (
+                  <div key={index} className="missed-team">{team.Team}</div>
+                ))}
               </div>
-            <button onClick={handleRestart}>
-              Restart Quiz
-            </button>
+            </div>
+            <button onClick={handleRestart}>Restart Quiz</button>
           </div>
         ) : isPaused ? (
           <div>
             <div>Paused</div>
-            <button onClick={handlePause}>
-              {isPaused ? 'Resume' : 'Pause'}
-            </button>
+            <button onClick={handlePause}>{isPaused ? 'Resume' : 'Pause'}</button>
           </div>
         ) : (
           currentTeam && (
@@ -238,61 +256,57 @@ function App() {
                   backgroundPosition: 'center',
                 }}
               >
-                {showingLogo ? <>
-                <div className="header">Last Team</div>
-                <div className="answer">{showingLogo.Team} {showingLogo.Nickname}</div>
-                </> : ""}
+                {showingLogo ? (
+                  <>
+                    <div className="header">Last Team</div>
+                    <div className="answer">{showingLogo.Team} {showingLogo.Nickname}</div>
+                  </>
+                ) : ""}
               </div>
               <div className="game-game">
-                <div className='current-team'>
-                  {currentTeam.Team}
-                </div>
+                <div className="current-team">{currentTeam.Team}</div>
                 {feedback && <p className={`mb-2 ${feedback === 'Right!' ? 'text-green-500' : 'text-red-500'}`}>{feedback}</p>}
                 <form onSubmit={handleSubmit}>
-                  {feedback ?  <Autosuggest
-                    suggestions={suggestions}
-                    onSuggestionsFetchRequested={onSuggestionsFetchRequested}
-                    onSuggestionsClearRequested={onSuggestionsClearRequested}
-                    onSuggestionSelected={onSuggestionSelected} 
-                    getSuggestionValue={suggestion => suggestion}
-                    renderSuggestion={suggestion => <div>{suggestion}</div>}
-                    inputProps={inputProps}
-                    disabled={true}
-                  /> :  <Autosuggest
-                  suggestions={suggestions}
-                  onSuggestionsFetchRequested={onSuggestionsFetchRequested}
-                  onSuggestionsClearRequested={onSuggestionsClearRequested}
-                  onSuggestionSelected={onSuggestionSelected} 
-                  getSuggestionValue={suggestion => suggestion}
-                  renderSuggestion={suggestion => <div>{suggestion}</div>}
-                  inputProps={inputProps}
-                />}
-                 
-
+                  {feedback ? (
+                    <Autosuggest
+                      suggestions={suggestions}
+                      onSuggestionsFetchRequested={onSuggestionsFetchRequested}
+                      onSuggestionsClearRequested={onSuggestionsClearRequested}
+                      onSuggestionSelected={onSuggestionSelected}
+                      getSuggestionValue={suggestion => suggestion}
+                      renderSuggestion={suggestion => <div>{suggestion}</div>}
+                      inputProps={inputProps}
+                      disabled={true}
+                    />
+                  ) : (
+                    <Autosuggest
+                      suggestions={suggestions}
+                      onSuggestionsFetchRequested={onSuggestionsFetchRequested}
+                      onSuggestionsClearRequested={onSuggestionsClearRequested}
+                      onSuggestionSelected={onSuggestionSelected}
+                      getSuggestionValue={suggestion => suggestion}
+                      renderSuggestion={suggestion => <div>{suggestion}</div>}
+                      inputProps={inputProps}
+                    />
+                  )}
                 </form>
-                <div className='buttons'>
+                <div className="buttons">
                   <div>
-                    {feedback ? <><button>
-                      Submit
-                    </button>
-                    <button type="button">
-                      Skip
-                    </button>
-                    </> : <>
-                    <button type="submit" onClick={handleSubmit}>
-                      Submit
-                    </button>
-                    <button type="button" onClick={handleSkip}>
-                      Skip
-                    </button></>}
+                    {feedback ? (
+                      <>
+                        <button>Submit</button>
+                        <button type="button">Skip</button>
+                      </>
+                    ) : (
+                      <>
+                        <button type="submit" onClick={handleSubmit}>Submit</button>
+                        <button type="button" onClick={handleSkip}>Skip</button>
+                      </>
+                    )}
                   </div>
                   <div>
-                    <button onClick={handlePause}>
-                      {isPaused ? 'Resume' : 'Pause'}
-                    </button>
-                    <button onClick={handleQuit}>
-                      Quit
-                    </button>
+                    <button onClick={handlePause}>{isPaused ? 'Resume' : 'Pause'}</button>
+                    <button onClick={handleQuit}>Quit</button>
                   </div>
                 </div>
               </div>

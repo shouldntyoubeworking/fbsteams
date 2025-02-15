@@ -1,0 +1,204 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .game-window {
+        background-size: 15em !important;
+    }
+    .game {
+        width: 100%;
+    }
+    
+    .bristol-logo {
+        margin-left: 1em;
+    }
+    
+    .game button {
+        font-size: 1em;
+        margin-top: 1%;
+    }
+    
+    .game-graphic {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .game-window {
+        width: 80%;
+        margin: 0 auto;
+        height: 31%;
+    }
+    
+    .game-game input {
+        font-size: 2em;
+    }
+    
+    .current-team {
+        text-align: center;
+    }
+    
+    div#react-autowhatever-1 {
+        font-size: 0.6em;
+        display: block;
+        flex-direction: column;
+    }
+    
+    .buttons div, .button div button {
+        display: block;
+        width: 100%;
+    }
+    
+    .buttons button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1%;
+    }
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .game-window {
+        background-size: 15em !important;
+    }
+    .game {
+        width: 100%;
+    }
+    
+    .bristol-logo {
+        margin-left: 1em;
+    }
+    
+    .game button {
+        font-size: 1em;
+        margin-top: 1%;
+    }
+    
+    .game-graphic {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .game-window {
+        width: 80%;
+        margin: 0 auto;
+        height: 31%;
+    }
+    
+    .game-game input {
+        font-size: 2em;
+    }
+    
+    .current-team {
+        text-align: center;
+    }
+    
+    div#react-autowhatever-1 {
+        font-size: 0.6em;
+        display: block;
+        flex-direction: column;
+    }
+    
+    .buttons div, .button div button {
+        display: block;
+        width: 100%;
+    }
+    
+    .buttons button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1%;
+    }
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .game {
+        width: 90%;
+    }
+    
+    .game-game {
+        text-align: center;
+    }
+    
+    .current-team {
+        text-align: center;
+    }
+    
+    .buttons button {
+        font-size: 2em;
+        margin-bottom: 1%;
+    }
+    
+    .buttons div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .game-window {
+        width: 30%;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .game {
+        width: 90%;
+    }
+    
+    .game-game {
+        text-align: center;
+    }
+    
+    .current-team {
+        text-align: center;
+    }
+    
+    .buttons button {
+        font-size: 2em;
+        margin-bottom: 1%;
+    }
+    
+    .buttons div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .game-window {
+        width: 30%;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1366px) {
+    .game {
+        width: 90%;
+    }
+    
+    .game-game {
+        text-align: center;
+    }
+    
+    .current-team {
+        text-align: center;
+    }
+    
+    .buttons button {
+        font-size: 2em;
+        margin-bottom: 1%;
+    }
+    
+    .buttons div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .game-window {
+        width: 30%;
+    }
+  }
